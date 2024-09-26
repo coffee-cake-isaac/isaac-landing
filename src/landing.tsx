@@ -23,8 +23,8 @@ const PersonalWebsite: React.FC = () => {
           </div>
   
           <p className="text-gray-600 leading-relaxed">
-            Hello! I like to make cool things with fun technologies. 
-            Currently building <a href="https://github.com/coffee-cake-isaac/dayly">Dayly</a>, a to-do app built with Flutter. Also working on an unannounced project and trying to help push the Ford platform on Openpilot.
+            Hello! I like to make cool things with fun technologies. <br/ ><br/ >
+            Currently building <a href="https://github.com/coffee-cake-isaac/dayly">Dayly</a>, a to-do app built with Flutter. <br/ > <br />Also working on an unannounced project and trying to help push the Ford platform on Openpilot.<br /><br />
             Get in touch with me! I'd love to chat.
           </p>
         </main>
