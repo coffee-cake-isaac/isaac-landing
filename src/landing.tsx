@@ -3,7 +3,7 @@ const PersonalWebsite: React.FC = () => {
       <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-4 md:p-8">
         <main className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md md:max-w-lg lg:max-w-xl">
           <h1 className="text-3xl md:text-4xl font-bold mb-2 text-indigo-600">Isaac Barham</h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-600">Software Engineer</p>
+          <p className="text-lg md:text-xl mb-6 text-gray-600">Lead Software Engineer</p>
           
           <div className="space-y-4 mb-8">
             <a 
@@ -23,9 +23,9 @@ const PersonalWebsite: React.FC = () => {
           </div>
   
           <p className="text-gray-600 leading-relaxed">
-            Hello! I'm a passionate software engineer based in North Carolina. 
-            I love creating elegant solutions to complex problems and am always 
-            eager to learn new technologies.
+            Hello! I like to make cool things with fun technologies. 
+            Currently building <a href="https://github.com/coffee-cake-isaac/dayly">Dayly</a>, a to-do app built with Flutter. Also working on an unannounced project and trying to help push the Ford platform on Openpilot.
+            Get in touch with me! I'd love to chat.
           </p>
         </main>
         
