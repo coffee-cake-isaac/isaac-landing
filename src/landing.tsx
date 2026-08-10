@@ -16,11 +16,11 @@ const PersonalWebsite: React.FC = () => {
         {/* Content */}
         <div className="p-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-2 text-indigo-600">Isaac Barham</h1>
-          <p className="text-lg md:text-xl mb-6 text-gray-600">Lead Software Engineer</p>
+          <p className="text-lg md:text-xl mb-6 text-gray-600">Senior Software Engineer</p>
           
           <div className="space-y-4 mb-8">
             <a 
-              href="https://github.com/coffee-cake-isaac" 
+              href="https://github.com/hiimisaac" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block w-full text-center bg-gray-800 text-white py-2 rounded hover:bg-gray-700 transition-colors"
@@ -37,8 +37,6 @@ const PersonalWebsite: React.FC = () => {
   
           <p className="text-gray-600 leading-relaxed">
             Hello! I like to make cool things with fun technologies. <br /><br />
-            Currently building <a href="https://github.com/coffee-cake-isaac/dayly" className="text-indigo-600 hover:underline">Dayly</a>, a to-do app built with Flutter. <br /><br />
-            Also working on an unannounced project and trying to help push the Ford platform on Openpilot.<br /><br />
             Get in touch with me! I'd love to chat.
           </p>
         </div>
