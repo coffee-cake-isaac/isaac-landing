@@ -2,10 +2,15 @@ import React from 'react';
 
 const PersonalWebsite: React.FC = () => {
   return (
-    <div className="min-h-screen">
-      {/* macOS-style window bar */}
+    <div className="min-h-screen bg-indigo-50 flex flex-col items-center justify-center p-4">
+      <main className="w-full max-w-2xl bg-white rounded-xl shadow-2xl overflow-hidden border border-gray-200">
+        {/* macOS-style window bar */}
+        <div className="bg-gray-100 border-b border-gray-200 px-4 py-3 flex items-center gap-2">
+          <div className="w-3 h-3 rounded-full bg-red-500" />
+          <div className="w-3 h-3 rounded-full bg-yellow-500" />
+          <div className="w-3 h-3 rounded-full bg-green-500" />
+        </div>
 
-      <main>
         {/* Content */}
         <div className="p-8">
           <h1 className="text-3xl md:text-4xl font-bold mb-2 text-indigo-600">
